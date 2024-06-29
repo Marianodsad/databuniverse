@@ -423,86 +423,73 @@ INSERT INTO public.constellations VALUES (3, 'aquarius', 'is a sign represented 
 INSERT INTO public.galaxy VALUES (16, 'milky way', 1, NULL, NULL);
 INSERT INTO public.galaxy VALUES (17, 'andromeda', 2, NULL, NULL);
 INSERT INTO public.galaxy VALUES (18, 'triangulum', 3, NULL, NULL);
+INSERT INTO public.galaxy VALUES (73, 'm3', 19, NULL, NULL);
+INSERT INTO public.galaxy VALUES (74, 'm4', 20, NULL, NULL);
+INSERT INTO public.galaxy VALUES (75, 'm5', 21, NULL, NULL);
+
 
 --
 -- Data for Name: moon; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.moon VALUES (19, 'william', 45, false, 180, 19);
-INSERT INTO public.moon VALUES (20, 'william', 45, false, 180, 20);
-INSERT INTO public.moon VALUES (21, 'william', 45, false, 180, 30);
-INSERT INTO public.moon VALUES (22, 'william', 45, false, 180, 30);
-INSERT INTO public.moon VALUES (23, 'william', 45, false, 180, 30);
-INSERT INTO public.moon VALUES (24, 'Silliam', 45, false, 190, 30);
-INSERT INTO public.moon VALUES (25, 'mariano', 40, false, 190, 30);
-INSERT INTO public.moon VALUES (26, 'maR', 40, false, 170, 30);
-INSERT INTO public.moon VALUES (27, 'maR', 40, false, 170, 30);
-INSERT INTO public.moon VALUES (28, 'maR', 40, false, 170, 30);
-INSERT INTO public.moon VALUES (30, 'maR', 40, false, 170, 30);
-INSERT INTO public.moon VALUES (31, 'maR', 40, false, 170, 31);
-INSERT INTO public.moon VALUES (32, 'maR', 40, false, 170, 32);
-INSERT INTO public.moon VALUES (33, 'maR', 40, false, 170, 33);
-INSERT INTO public.moon VALUES (34, 'maR', 40, false, 170, 34);
-INSERT INTO public.moon VALUES (35, 'maR', 40, false, 170, 35);
-INSERT INTO public.moon VALUES (36, 'maR', 40, false, 170, 36);
-INSERT INTO public.moon VALUES (37, 'maR', 40, false, 170, 22);
-INSERT INTO public.moon VALUES (50, 'maR', 40, false, 170, 22);
-INSERT INTO public.moon VALUES (51, 'maR', 40, false, 170, 22);
-INSERT INTO public.moon VALUES (52, 'maR', 40, false, 170, 52);
-INSERT INTO public.moon VALUES (53, 'maR', 40, false, 170, 53);
-INSERT INTO public.moon VALUES (54, 'maR', 40, false, 170, 54);
-INSERT INTO public.moon VALUES (55, 'maR', 40, false, 170, 55);
-INSERT INTO public.moon VALUES (56, 'maR', 40, false, 170, 56);
-INSERT INTO public.moon VALUES (57, 'maR', 40, false, 170, 57);
+INSERT INTO public.moon VALUES (60, 'william', 34, false, 190, 61);
+INSERT INTO public.moon VALUES (61, 'pedro', 39, false, 190, 61);
+INSERT INTO public.moon VALUES (62, 'jhon', 30, false, 160, 61);
+INSERT INTO public.moon VALUES (63, 'mariano', 38, false, 170, 61);
+INSERT INTO public.moon VALUES (64, 'louis', 38, false, 170, 61);
+INSERT INTO public.moon VALUES (65, 'jhonson', 32, false, 175, 61);
+INSERT INTO public.moon VALUES (66, 'elon', 40, false, 179, 61);
+INSERT INTO public.moon VALUES (67, 'lucas', 45, false, 180, 61);
+INSERT INTO public.moon VALUES (68, 'mark', 36, false, 182, 61);
+INSERT INTO public.moon VALUES (69, 'blue', 38, false, 174, 61);
+INSERT INTO public.moon VALUES (70, 'marcian', 9999, false, 300, 63);
+INSERT INTO public.moon VALUES (71, 'marcian2', 9999, false, 300, 63);
+INSERT INTO public.moon VALUES (72, 'tj', 50, false, 200, 61);
+INSERT INTO public.moon VALUES (73, 'thomas', 55, false, 168, 61);
+INSERT INTO public.moon VALUES (74, 'osvaldo', 52, false, 169, 61);
+INSERT INTO public.moon VALUES (75, 'mp', 53, false, 169, 61);
+INSERT INTO public.moon VALUES (76, 'jhoni', 26, false, 160, 61);
+INSERT INTO public.moon VALUES (77, 'picco', 46, false, 167, 61);
+INSERT INTO public.moon VALUES (78, 'marcian3', 9999, false, 300, 61);
+INSERT INTO public.moon VALUES (79, 'marcian3', 9999, false, 300, 61);
+INSERT INTO public.moon VALUES (80, 'marcian4', 9999, false, 300, 61);
+INSERT INTO public.moon VALUES (81, 'frank', 39, false, 170, 61);
 
 
 --
 -- Data for Name: planet; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.planet VALUES (19, 'mercury', 18, 1, NULL);
-INSERT INTO public.planet VALUES (20, 'venus', 18, 2, NULL);
-INSERT INTO public.planet VALUES (21, 'EARTH', 18, 3, NULL);
-INSERT INTO public.planet VALUES (22, 'mars', 18, 4, NULL);
-INSERT INTO public.planet VALUES (23, 'jupiter', 18, 5, NULL);
-INSERT INTO public.planet VALUES (24, 'SATURN', 18, 6, NULL);
-INSERT INTO public.planet VALUES (25, 'uranus', 18, 7, NULL);
-INSERT INTO public.planet VALUES (26, 'NEPTUNE', 18, 8, NULL);
-INSERT INTO public.planet VALUES (27, 'pluto', 20, 9, NULL);
-INSERT INTO public.planet VALUES (28, 'kepler', 20, 10, NULL);
-INSERT INTO public.planet VALUES (30, 'proxima centauri b', 20, 12, NULL);
-INSERT INTO public.planet VALUES (31, 'gliese', 22, 13, NULL);
-INSERT INTO public.planet VALUES (32, 'hd', 22, 14, NULL);
-INSERT INTO public.planet VALUES (33, 'trappist', 22, 15, NULL);
-INSERT INTO public.planet VALUES (34, 'trappist2', 22, 16, NULL);
-INSERT INTO public.planet VALUES (35, 'trappist3', 21, 17, NULL);
-INSERT INTO public.planet VALUES (36, 'cancri e', 21, 18, NULL);
-INSERT INTO public.planet VALUES (37, 'WASP', 21, 19, NULL);
-INSERT INTO public.planet VALUES (47, 'tar', 21, 29, NULL);
-INSERT INTO public.planet VALUES (48, 'tar', 21, 30, NULL);
-INSERT INTO public.planet VALUES (49, 'tar', 21, 31, NULL);
-INSERT INTO public.planet VALUES (50, 'tar', 21, 32, NULL);
-INSERT INTO public.planet VALUES (51, 'tar', 21, 33, NULL);
-INSERT INTO public.planet VALUES (52, 'tar', 19, 34, NULL);
-INSERT INTO public.planet VALUES (53, 'tar', 17, 35, NULL);
-INSERT INTO public.planet VALUES (54, 'tar', 17, 36, NULL);
-INSERT INTO public.planet VALUES (55, 'tar', 17, 37, NULL);
-INSERT INTO public.planet VALUES (56, 'tar', 17, 38, NULL);
-INSERT INTO public.planet VALUES (57, 'tar', 19, 39, NULL);
+INSERT INTO public.planet VALUES (59, 'mercury', 69, 1, 5);
+INSERT INTO public.planet VALUES (60, 'venus', 69, 2, 12);
+INSERT INTO public.planet VALUES (61, 'earth', 69, 3, 13);
+INSERT INTO public.planet VALUES (62, 'mars', 65, 3, 7);
+INSERT INTO public.planet VALUES (63, 'jupiter', 65, 5, 132);
+INSERT INTO public.planet VALUES (64, 'saturn', 63, 7, 73);
+INSERT INTO public.planet VALUES (65, 'uranus', 63, 8, 50);
+INSERT INTO public.planet VALUES (66, 'neptune', 63, 8, 49);
+INSERT INTO public.planet VALUES (67, 'pluto', 58, 8, 2);
+INSERT INTO public.planet VALUES (68, 'eris', 58, 8, 2);
+INSERT INTO public.planet VALUES (69, 'haumea', 58, 9, 1);
+INSERT INTO public.planet VALUES (70, 'makemake', 58, 10, 1);
 
 
 --
 -- Data for Name: star; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.star VALUES (17, 'a200', false, 17, NULL);
-INSERT INTO public.star VALUES (18, 'sirius', false, 18, NULL);
-INSERT INTO public.star VALUES (19, 'betelegeuse', false, 17, NULL);
-INSERT INTO public.star VALUES (20, 'rigel', false, 17, NULL);
-INSERT INTO public.star VALUES (21, 'polaris', false, 17, NULL);
-INSERT INTO public.star VALUES (22, 'vega', false, 17, NULL);
-
-
+INSERT INTO public.star VALUES (58, 'star1', false, 16, 67670);
+INSERT INTO public.star VALUES (59, 'star2', false, 16, 67679);
+INSERT INTO public.star VALUES (60, 'star3', false, 16, 67679);
+INSERT INTO public.star VALUES (61, 'star4', false, 16, 67679);
+INSERT INTO public.star VALUES (62, 'star5', false, 16, 67679);
+INSERT INTO public.star VALUES (63, 'star6', false, 17, 56679);
+INSERT INTO public.star VALUES (64, 'star8', false, 17, 56679);
+INSERT INTO public.star VALUES (65, 'star9', false, 17, 566679);
+INSERT INTO public.star VALUES (66, 'star10', false, 17, 886679);
+INSERT INTO public.star VALUES (67, 'star11', false, 18, 806679);
+INSERT INTO public.star VALUES (68, 'star12', false, 18, 8090679);
+INSERT INTO public.star VALUES (69, 'star13', false, 18, 8090679);
 
 
 --
@@ -516,7 +503,7 @@ SELECT pg_catalog.setval('public.constellations_constellations_id_seq', 3, true)
 -- Name: galaxy_galaxy_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.galaxy_galaxy_id_seq', 72, true);
+SELECT pg_catalog.setval('public.galaxy_galaxy_id_seq', 75, true);
 
 
 --
@@ -530,7 +517,7 @@ SELECT pg_catalog.setval('public.galaxy_num_of_galaxy_seq', 57, true);
 -- Name: moon_moon_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.moon_moon_id_seq', 58, true);
+SELECT pg_catalog.setval('public.moon_moon_id_seq', 81, true);
 
 
 --
@@ -551,7 +538,7 @@ SELECT pg_catalog.setval('public.planet_num_of_planets_knews_seq', 40, true);
 -- Name: planet_planet_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.planet_planet_id_seq', 58, true);
+SELECT pg_catalog.setval('public.planet_planet_id_seq', 70, true);
 
 
 --
@@ -572,7 +559,7 @@ SELECT pg_catalog.setval('public.star_galaxy_id_seq', 57, true);
 -- Name: star_star_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.star_star_id_seq', 57, true);
+SELECT pg_catalog.setval('public.star_star_id_seq', 69, true);
 
 
 --
@@ -682,4 +669,6 @@ ALTER TABLE ONLY public.star
 --
 -- PostgreSQL database dump complete
 --
+
+
 
