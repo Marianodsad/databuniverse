@@ -86,8 +86,8 @@ CREATE TABLE public.galaxy (
     galaxy_id integer NOT NULL,
     name character varying(30) NOT NULL,
     num_of_galaxy integer NOT NULL,
-    unknow_galaxys character varying(30),
-    description character varying(30)
+    description character varying(30),
+    know_galaxy boolean
 );
 
 
@@ -420,12 +420,12 @@ INSERT INTO public.constellations VALUES (3, 'aquarius', 'is a sign represented 
 -- Data for Name: galaxy; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.galaxy VALUES (16, 'milky way', 1, NULL, NULL);
-INSERT INTO public.galaxy VALUES (17, 'andromeda', 2, NULL, NULL);
-INSERT INTO public.galaxy VALUES (18, 'triangulum', 3, NULL, NULL);
-INSERT INTO public.galaxy VALUES (73, 'm3', 19, NULL, NULL);
-INSERT INTO public.galaxy VALUES (74, 'm4', 20, NULL, NULL);
-INSERT INTO public.galaxy VALUES (75, 'm5', 21, NULL, NULL);
+INSERT INTO public.galaxy VALUES (16, 'milky way', 1, 'our galaxy', true);
+INSERT INTO public.galaxy VALUES (17, 'andromeda', 2, 'another galaxy', true);
+INSERT INTO public.galaxy VALUES (18, 'triangulum', 3, 'another galaxy', true);
+INSERT INTO public.galaxy VALUES (73, 'm3', 19, 'another galaxy', true);
+INSERT INTO public.galaxy VALUES (74, 'm4', 20, 'another galaxy', true);
+INSERT INTO public.galaxy VALUES (75, 'm5', 21, 'another galaxy', true);
 
 
 --
@@ -669,6 +669,4 @@ ALTER TABLE ONLY public.star
 --
 -- PostgreSQL database dump complete
 --
-
-
 
